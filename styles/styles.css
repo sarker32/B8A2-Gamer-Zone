@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header section start here */
+.header {
+    background-color: #fff;
+    box-shadow: 1px 2px 10px #c20e0e;
+}
+
+.leftHeader {
+    padding-top: 5px;
+}
+
+.leftHeader img {
+    width: 47px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.leftHeader h2 {
+    font-size: 23px;
+    padding: 1px 0 2px 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+.rightHeader {
+    justify-content: flex-end;
+}
+
+.rightHeader div {
+    margin-left: 20px;
+    padding-top: 7px;
+    font-weight: 600;
+}
+
+.rightHeaderBtn {
+    background-color: #87878717;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.rightHeaderBtn i {
+    padding: 4px;
+    padding-left: 7px;
+}
