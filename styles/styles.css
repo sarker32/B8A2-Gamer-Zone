@@ -123,3 +123,259 @@
     padding: 5px 0;
     font-weight: 600;
 }
+.leftPlayGame {
+    text-align: center;
+    position: relative;
+}
+
+.leftPlayGame img {
+    width: 75%;
+    height: auto;
+}
+
+.leftImage2 img {
+    width: 200px;
+    height: 220px;
+}
+
+.leftImage2 {
+    position: absolute;
+    right: 0;
+    bottom: -48px;
+}
+
+.rightPlayGame {
+    padding: 130px 45px 0px 45px;
+}
+
+.rightPlayGame h2 {
+    font-size: 30px;
+    color: #ff42a5;
+    font-weight: 700;
+}
+
+.rightPlayGame p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.linkSection {
+    background-color: #87878717;
+    margin-top: 90px;
+    overflow-x: hidden;
+}
+
+.allCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkCard {
+    border-radius: 4px;
+    padding: 5px 11px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.linkCard img {
+    width: 30px;
+    height: 30px;
+}
+
+.linkCard p {
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.linkCard p:hover {
+    color: #ff42a5;
+}
+
+.linkCard:hover {
+    border: 1px solid #ff42a5;
+}
+.footerSection {
+    background-color: #444;
+    padding-left: 40px;
+}
+
+.footerHeader {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.footerHeader img {
+    width: 47px;
+    height: 25px;
+    margin: 10px;
+}
+
+.footerHeader h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.footerLnk {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footerLnk2 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footerLnk3 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 17px 0;
+}
+
+.footerLnk3 ul li {
+    margin-right: 35px;
+}
+
+.footerLnk3 ul li i {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.footerLnk ul li a {
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footerLnk ul li :hover {
+    color: #fff;
+}
+
+.footerLnk2 ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerLnk2 ul li :hover {
+    color: #878787;
+}
+
+.foterText {
+    text-align: center;
+    padding: 10px 120px 10px 0;
+}
+
+.foterText p {
+    color: #fff;
+    font-size: 14px;
+}
+@media only screen and (min-width: 550px) {
+    .hideLink {
+        display: none;
+    }
+
+    .allCard {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .rightHeader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightHeaderBtn {
+        justify-content: center;
+    }
+
+    .bannerleft {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .gameText h2 {
+        font-size: 20px;
+    }
+
+    .gameCard {
+        text-align: center;
+    }
+
+    .gameCard img {
+        width: 60%;
+        height: auto;
+    }
+
+    .gameCard p {
+        font-size: 8px;
+    }
+
+    .rightPlayGame {
+        padding: 70px 45px 0px 45px;
+    }
+
+    .rightPlayGame h2 {
+        font-size: 25px;
+    }
+
+    .rightPlayGame p {
+        text-align: justify;
+    }
+
+    .allCard {
+        display: none;
+    }
+
+    .linkCard {
+        padding: 5px;
+        border: none;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+
+    .linkCard p {
+        font-size: 10px;
+        padding-left: 10px;
+        transition: all 0.4s;
+        padding-top: 10px;
+    }
+
+    .footerHeader {
+        padding-right: 90px;
+    }
+
+    .footerHeader h2 {
+        padding-left: 0px;
+    }
+
+    .footerLnk2 {
+        display: none;
+    }
+
+    .foterText {
+        text-align: center;
+        padding: 10px 60px 10px 0;
+    }
+
+    .foterText p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+}
