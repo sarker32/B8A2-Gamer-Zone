@@ -48,3 +48,78 @@
     padding: 4px;
     padding-left: 7px;
 }
+
+.bannerSection {
+    background-color: #87878717;
+}
+
+.bannerleft {
+    padding: 60px 0px;
+}
+
+.bannerleft h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bannerleft h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+.bannerleft p {
+    font-size: 14px;
+    line-height: 10px;
+    color: #393737;
+    font-weight: 600;
+
+}
+
+.bannerleft button {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 15px;
+    fill: linear-gradient(223deg, rgba(50, 23, 102, 0.799) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.bannerRight {
+    text-align: center;
+}
+
+.bannerRight img {
+    width: 90%;
+    height: 430px;
+}
+
+.gameText {
+    text-align: center;
+}
+
+.gameText h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.gameText p {
+    font-size: 10px;
+    line-height: 8px;
+    color: #444;
+    font-weight: 600;
+}
+
+
+.gameCard img {
+    width: 100%;
+    height: auto;
+}
+
+.gameCard p {
+    font-size: 12px;
+    padding: 5px 0;
+    font-weight: 600;
+}
